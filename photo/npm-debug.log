@@ -1,0 +1,161 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'connect-multiparty',
+1 verbose cli   '–-save' ]
+2 info using npm@1.4.28
+3 info using node@v0.13.0-pre
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'connect-multiparty', null ]
+6 verbose cache add name=undefined spec="connect-multiparty" args=["connect-multiparty",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'connect-multiparty',
+7 verbose parsed url   path: 'connect-multiparty',
+7 verbose parsed url   href: 'connect-multiparty' }
+8 verbose cache add [ '–-save', null ]
+9 verbose cache add name=undefined spec="–-save" args=["–-save",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '–-save',
+10 verbose parsed url   path: '–-save',
+10 verbose parsed url   href: '–-save' }
+11 silly lockFile e67adb06-connect-multiparty connect-multiparty
+12 verbose lock connect-multiparty /home/lihang/.npm/e67adb06-connect-multiparty.lock
+13 silly lockFile e35623a8-save –-save
+14 verbose lock –-save /home/lihang/.npm/e35623a8-save.lock
+15 silly lockFile e67adb06-connect-multiparty connect-multiparty
+16 silly lockFile e67adb06-connect-multiparty connect-multiparty
+17 silly lockFile e35623a8-save –-save
+18 silly lockFile e35623a8-save –-save
+19 verbose addNamed [ 'connect-multiparty', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 9ca6e29f-connect-multiparty connect-multiparty@
+22 verbose lock connect-multiparty@ /home/lihang/.npm/9ca6e29f-connect-multiparty.lock
+23 verbose addNamed [ '–-save', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile a436abc8-save –-save@
+26 verbose lock –-save@ /home/lihang/.npm/a436abc8-save.lock
+27 silly addNameRange { name: 'connect-multiparty', range: '*', hasData: false }
+28 silly addNameRange { name: '–-save', range: '*', hasData: false }
+29 verbose request where is /–-save
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 5e15c3abba095f3f
+32 verbose url raw /–-save
+33 verbose url resolving [ 'https://registry.npmjs.org/', './%E2%80%93-save' ]
+34 verbose url resolved https://registry.npmjs.org/%E2%80%93-save
+35 verbose request where is https://registry.npmjs.org/%E2%80%93-save
+36 info trying registry request attempt 1 at 13:28:47
+37 http GET https://registry.npmjs.org/%E2%80%93-save
+38 verbose request where is /connect-multiparty
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /connect-multiparty
+41 verbose url resolving [ 'https://registry.npmjs.org/', './connect-multiparty' ]
+42 verbose url resolved https://registry.npmjs.org/connect-multiparty
+43 verbose request where is https://registry.npmjs.org/connect-multiparty
+44 info trying registry request attempt 1 at 13:28:47
+45 verbose etag "3NDN1FV49GX7KOO7Z3FWAXC5T"
+46 http GET https://registry.npmjs.org/connect-multiparty
+47 http 304 https://registry.npmjs.org/connect-multiparty
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Sun, 09 Nov 2014 05:28:48 GMT',
+48 silly registry.get     server: 'Apache',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'last-modified': 'Sun, 09 Nov 2014 05:16:18 GMT',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     etag: '"3NDN1FV49GX7KOO7Z3FWAXC5T"',
+48 silly registry.get     age: '46',
+48 silly registry.get     'x-served-by': 'cache-ty68-TYO',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '1',
+48 silly registry.get     'x-timer': 'S1415510928.317676,VS0,VE0',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'content-length': '0',
+48 silly registry.get     connection: 'close' } ]
+49 verbose etag https://registry.npmjs.org/connect-multiparty from cache
+50 silly addNameRange number 2 { name: 'connect-multiparty', range: '*', hasData: true }
+51 silly addNameRange versions [ 'connect-multiparty',
+51 silly addNameRange   [ '0.1.0',
+51 silly addNameRange     '0.1.1',
+51 silly addNameRange     '1.0.0',
+51 silly addNameRange     '1.0.1',
+51 silly addNameRange     '1.0.2',
+51 silly addNameRange     '1.0.3',
+51 silly addNameRange     '1.0.4',
+51 silly addNameRange     '1.0.5',
+51 silly addNameRange     '1.0.6',
+51 silly addNameRange     '1.1.0',
+51 silly addNameRange     '1.2.0',
+51 silly addNameRange     '1.2.1',
+51 silly addNameRange     '1.2.2',
+51 silly addNameRange     '1.2.3',
+51 silly addNameRange     '1.2.4',
+51 silly addNameRange     '1.2.5' ] ]
+52 verbose addNamed [ 'connect-multiparty', '1.2.5' ]
+53 verbose addNamed [ '1.2.5', '1.2.5' ]
+54 silly lockFile 504292ad-connect-multiparty-1-2-5 connect-multiparty@1.2.5
+55 verbose lock connect-multiparty@1.2.5 /home/lihang/.npm/504292ad-connect-multiparty-1-2-5.lock
+56 silly lockFile 504292ad-connect-multiparty-1-2-5 connect-multiparty@1.2.5
+57 silly lockFile 504292ad-connect-multiparty-1-2-5 connect-multiparty@1.2.5
+58 silly lockFile 9ca6e29f-connect-multiparty connect-multiparty@
+59 silly lockFile 9ca6e29f-connect-multiparty connect-multiparty@
+60 http 404 https://registry.npmjs.org/%E2%80%93-save
+61 verbose headers { date: 'Sun, 09 Nov 2014 05:28:48 GMT',
+61 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+61 verbose headers   'content-type': 'application/json',
+61 verbose headers   'cache-control': 'max-age=0',
+61 verbose headers   'content-length': '52',
+61 verbose headers   'accept-ranges': 'bytes',
+61 verbose headers   via: '1.1 varnish',
+61 verbose headers   age: '0',
+61 verbose headers   'x-served-by': 'cache-ty66-TYO',
+61 verbose headers   'x-cache': 'MISS',
+61 verbose headers   'x-cache-hits': '0',
+61 verbose headers   'x-timer': 'S1415510928.332092,VS0,VE191',
+61 verbose headers   connection: 'close' }
+62 silly registry.get cb [ 404,
+62 silly registry.get   { date: 'Sun, 09 Nov 2014 05:28:48 GMT',
+62 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+62 silly registry.get     'content-type': 'application/json',
+62 silly registry.get     'cache-control': 'max-age=0',
+62 silly registry.get     'content-length': '52',
+62 silly registry.get     'accept-ranges': 'bytes',
+62 silly registry.get     via: '1.1 varnish',
+62 silly registry.get     age: '0',
+62 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+62 silly registry.get     'x-cache': 'MISS',
+62 silly registry.get     'x-cache-hits': '0',
+62 silly registry.get     'x-timer': 'S1415510928.332092,VS0,VE191',
+62 silly registry.get     connection: 'close' } ]
+63 silly lockFile a436abc8-save –-save@
+64 silly lockFile a436abc8-save –-save@
+65 error 404 404 Not Found: %E2%80%93-save
+65 error 404
+65 error 404 '%E2%80%93-save' is not in the npm registry.
+65 error 404 You should bug the author to publish it
+65 error 404 It was specified as a dependency of 'photo'
+65 error 404
+65 error 404 Note that you can also install from a
+65 error 404 tarball, folder, or http url, or git url.
+66 error System Linux 3.13.0-39-generic
+67 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "connect-multiparty" "–-save"
+68 error cwd /home/lihang/git/expresstesting/photo
+69 error node -v v0.13.0-pre
+70 error npm -v 1.4.28
+71 error code E404
+72 verbose exit [ 1, true ]
